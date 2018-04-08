@@ -10,7 +10,8 @@ public class Hello implements RequestHandler<Object, String> {
         context.getLogger().log("Input: " + input);
         System.out.println("This is application version");
         System.out.println("This is document version");
-        System.out.println("This is branching version");
+        System.out.println("This is branching version 1");
+        System.out.println("This is branching version 2");
 
         // TODO: implement your handler
         return "Hello from Lambda";
