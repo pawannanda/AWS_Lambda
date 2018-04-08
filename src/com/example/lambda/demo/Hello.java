@@ -8,6 +8,7 @@ public class Hello implements RequestHandler<Object, String> {
     @Override
     public String handleRequest(Object input, Context context) {
         context.getLogger().log("Input: " + input);
+        System.out.println("This is application version");
 
         // TODO: implement your handler
         return "Hello from Lambda";
