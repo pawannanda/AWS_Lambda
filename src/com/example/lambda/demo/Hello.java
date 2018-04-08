@@ -15,7 +15,11 @@ public class Hello implements RequestHandler<Object, String> {
         System.out.println("This is branching version 3");
         System.out.println("This is branching version 4");
         System.out.println("This is branching version 5");
+<<<<<<< Updated upstream
         System.out.println("This is branching version 6");
+=======
+        System.out.println("This is branching version 7");
+>>>>>>> Stashed changes
 
         // TODO: implement your handler
         return "Hello from Lambda";
