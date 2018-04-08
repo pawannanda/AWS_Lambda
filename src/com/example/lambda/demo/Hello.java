@@ -18,6 +18,7 @@ public class Hello implements RequestHandler<Object, String> {
         System.out.println("This is branching version 6");
         System.out.println("This is branching version 7");
         System.out.println("This is branching version 8");
+        System.out.println("This is branching version 9");
         System.out.println("This is branching version 10");
 
         // TODO: implement your handler
