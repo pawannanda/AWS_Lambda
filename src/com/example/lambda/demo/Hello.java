@@ -9,6 +9,7 @@ public class Hello implements RequestHandler<Object, String> {
     public String handleRequest(Object input, Context context) {
         context.getLogger().log("Input: " + input);
         System.out.println("This is application version");
+        System.out.println("This is document version");
 
         // TODO: implement your handler
         return "Hello from Lambda";
